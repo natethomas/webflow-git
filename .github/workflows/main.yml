@@ -20,8 +20,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - - name: Webflow Get
-          uses: loomchild/webflow-get@v1.2
+      - name: Webflow Get
+        uses: loomchild/webflow-get@v1.2
 
 
       - name: Commit and Push
